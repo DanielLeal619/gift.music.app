@@ -1,0 +1,49 @@
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&family=Josefin+Slab:ital,wght@1,100&family=Nunito+Sans:wght@200&display=swap');
+
+/* RESET */
+
+* {
+    box-sizing: border-box;    
+}
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, p, ul, hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+ul, li {
+    padding-left: 0;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+input {
+    font-family: inherit;
+    outline: none;
+    border: none;
+}
+
+button {
+    font-family: inherit;
+    border: none;
+}
+
+img {
+    width: 200px;
+}
+

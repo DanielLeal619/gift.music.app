@@ -1,0 +1,9 @@
+.banner {
+    height: 6em;
+}
+
+.banner__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

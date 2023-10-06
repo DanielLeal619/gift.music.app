@@ -1,0 +1,12 @@
+.home__form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.home__input {
+    border: 1px solid black;
+    width: 25em;
+    height: 25px;
+    font-size: 15px;
+}

@@ -1,0 +1,79 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.register__square {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);   
+    padding: 3em 3em;
+    gap: 20px;   
+    background-color: rgba(0, 0, 0, 0.636); 
+    border-radius: 2.5em; 
+    margin-top: 1.5em;    
+}
+
+.register__img {
+    width: 23em;
+    border-radius: 3em;
+}
+
+.register__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7em;
+}
+
+.register__form__element {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 670px) {
+    .register__img {
+      display: none;      
+    }
+    .login__format {
+        margin-top: -6em;
+        padding-bottom: 2em;
+    }
+  }
+
+.register__input {
+    height: 30px;    
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+.register__submit {
+    text-align: center;    
+}
+
+.register__btn {
+    cursor: pointer;
+    background-color: inherit;
+    color: white;
+    padding: 0.7em 5em; 
+    border-radius: 0.7em;
+    transition: 0.3s;
+    font-size: 0.9em;
+}
+
+.register__btn:hover {
+    border: 1px solid white;
+    scale: 1.03;
+}
+
+.register__p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.register__link {
+    color: white;
+}
